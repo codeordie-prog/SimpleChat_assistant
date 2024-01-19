@@ -18,6 +18,9 @@ fp = fop()
 
 class AgentTools:
 
+    """These tools can be modified to fit the data provided to the agent. The ones defined below are in accordance to the data I
+    provided to the agent.."""
+
     
     #tool 1 - interests - gets computer science interests
     @tool
