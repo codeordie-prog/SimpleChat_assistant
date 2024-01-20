@@ -1,12 +1,12 @@
 
 # Simple Chat assistant powered by ChatGPT 
 
-This is a simple chat assistant created using OpenAI ChatGPT API, Google speech_recognition API, pyttsx3 library and Langchain framework
+This is a simple chat assistant created using OpenAI ChatGPT API, Google speech_recognition API, pytts3x library and Langchain framework
 
-a. ChatGPT API - gives the assistant reasoning capabilities
-b. Google's speech_recognition - gives the assistant listening capabilities
-c. pyttsx3 library - gives the assistant voice capabilities - note this can be easily substituted with other tools like elevenlabs API
-d. Langchain framework - enables the creation of tools that the llm can use, memory, prompt for context and many other capabilities some yet
+1. ChatGPT API - gives the assistant reasoning capabilities
+2. Google's speech_recognition - gives the assistant listening capabilities
+3. pyttsx3 library - gives the assistant voice capabilities - note this can be easily substituted with other tools like elevenlabs API
+4. Langchain framework - enables the creation of tools that the llm can use, memory, prompt for context and many other capabilities some yet
                     to be added like document loading for helping with different documents.
 
 it uses personal data to make association tailored in accordance to the user needs - e.g in my case i use interests, goals to make tools for the agent that it can use when needed - this is completely open for customization with respect to data you choose to feed the agent.
