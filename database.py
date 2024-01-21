@@ -49,7 +49,7 @@ class User_Database_Manager:
 
     #parse the json file to a dictionary
 
-    def parse_json_to_dictionary(self,path_to_readonly_files,file_name):
+    def parse_json_to_dictionary(self, path_to_readonly_files : str ,file_name : str):
 
         try:
 
@@ -67,7 +67,7 @@ class User_Database_Manager:
     
     # gets the specific userdata dictionary from the json file
 
-    def get_userdata_dictionary(self,filepath,filename):
+    def get_userdata_dictionary(self,filepath : str, filename : str):
 
         user_data_dictionary = None
 
@@ -83,13 +83,13 @@ class User_Database_Manager:
 
     #update readonly filepath
             
-    def update_readonly_filepath(self,newpath):
+    def update_readonly_filepath(self, newpath : str):
 
         self.path_to_readonly_files = newpath
 
     #update writtable filepath
         
-    def update_writtable_filepath(self,newpath):
+    def update_writtable_filepath(self, newpath : str):
 
         self.writtable_filepath = newpath
 

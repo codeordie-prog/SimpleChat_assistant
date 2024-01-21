@@ -87,7 +87,7 @@ class PromptTemplate:
     2. Maintains context in the conversations through consistently injecting the system message to the agent"""    
 
     #constructor
-    def __init__(self,prompt):
+    def __init__(self, prompt : str):
 
         self.system_message = prompt
 

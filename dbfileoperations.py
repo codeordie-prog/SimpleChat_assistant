@@ -52,7 +52,7 @@ class FileOperationsFunctions(userdata):
         return shortterm_goals
 
     #get specific interests
-    def get_specific_interest(self,specific_interest) -> list:
+    def get_specific_interest(self, specific_interest : str) -> list:
 
         try:
 

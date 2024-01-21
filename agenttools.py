@@ -110,7 +110,7 @@ class AgentTools:
     
 
     
-
+    #tools list
     tools = [get_computer_science_interests,get_book_interests,get_creator_longterm_goals,get_creator_profile,get_movie_interests,
              get_music_interests,get_philosophy_interests,get_spiritual_interests,get_creator_shortterm_goals,get_science_interests]
         

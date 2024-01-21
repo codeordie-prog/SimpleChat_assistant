@@ -71,7 +71,7 @@ def intro():
 
 
 #sends queries to JARVIS and speaks the responses    
-def send_query(query_input):
+def send_query(query_input : str ):
 
     response = conversation.invoke({"input" : query_input, "chat_history": chat_history})
 
@@ -88,7 +88,7 @@ def send_query(query_input):
     voicebox.runAndWait()
 
 # says a goodbye when asked to stop or asks the user to say something  
-def default_responses(response):
+def default_responses(response : str ):
 
     print(response)
     voicebox.say(response)
