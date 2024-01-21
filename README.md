@@ -13,6 +13,8 @@ it uses personal data to make association tailored in accordance to the user nee
 
 You can run the main.py file and choose interaction mode - speech or text
 
+![sample_interaction](/images/jarvis.png)
+
 # Notes
 
 1. File database.py - has paths to user documents - you can create a json file with any information you wish to give the assistant access to,   this may include personal interests that the assistant can reference from to make your association tailored according to your needs.
