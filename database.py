@@ -19,7 +19,7 @@ class User_Database_Manager:
 
         self.user_filename = "user_data.json"
 
-        self.data = ""
+        self.data = "" #this is where the data goes in - make it as a dictionary then dump it as json file using the create_json_file function
         
         
 

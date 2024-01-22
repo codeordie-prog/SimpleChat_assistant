@@ -17,7 +17,8 @@ You can run the main.py file and choose interaction mode - speech or text
 
 # Notes
 
-1. File database.py - has paths to user documents - you can create a json file with any information you wish to give the assistant access to,   this may include personal interests that the assistant can reference from to make your association tailored according to your needs.
+1. File database.py - has paths to user documents - you can create a json file with any information you wish to give the assistant access to,   this may include personal interests that the assistant can reference from to make your association tailored according to your needs. Note that 
+the self.data = "" is where you need to inject your personal data - in the form of a dictionary then dump it as a json file using the create_json_file() function.
 
 2. File dbfileoperations.py - has functions that retrieve information from the data you choose to create in database.py.
                             - These functions can be modified with respect to the kind of data fed to the assistant, in my case i chose to list  my profile, interests and goals in several aspects of my life
