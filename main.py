@@ -32,7 +32,7 @@ def main():
             
         elif mode == 2:
 
-            intro()
+            #intro()
             text()
 
         else:
@@ -68,6 +68,20 @@ def intro():
 
     except TypeError:
         pass
+
+#no voice property
+def text_quering(query_input : str ):
+
+    response = conversation.invoke({"input" : query_input, "chat_history" : chat_history})
+
+    chat_history.extend(
+        [
+            HumanMessage(content=query_input),
+            AIMessage(content=response["output"]),
+        ]
+     )
+    
+    print(response["output"])
 
 
 #sends queries to JARVIS and speaks the responses    
@@ -142,16 +156,19 @@ def text():
 
                 if user_input == 'stop':
 
-                    default_responses(response = "Ok boss, Goodbye, Talk later")
+                    #default_responses(response = "Ok boss, Goodbye, Talk later")
+                    print("okay boss, goodbye, talk later")
                     sys.exit()
 
                 else:
 
-                   send_query(user_input)
+                   #send_query(user_input)
+                    text_quering(user_input)
 
             else:
 
-                default_responses(response = "please type something")
+                #default_responses(response = "please type something")
+                print("please say something")
                 text()
 
 
