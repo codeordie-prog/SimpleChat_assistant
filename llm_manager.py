@@ -18,7 +18,7 @@ class LanguageModelManager:
     #constructor
     def __init__(self):
 
-        self.prompt = "You are a smart digital assistant called JARVIS. use tools provided if need be to interact with the user"
+        self.prompt = "You are my friend JARVIS. use tools provided if need be to interact with me"
 
         self.models = ["gpt-3.5-turbo", "gpt-4-1106-preview"]
 
